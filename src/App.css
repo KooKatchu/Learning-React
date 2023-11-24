@@ -1,3 +1,7 @@
+#root {
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button::after {
+    content: ' ⚔';
+  }
+
+#profile {
+    width: 50vw;
+}
+
+#profile h1 {
+    font-size: 1.5em;
+}
+
+#profile p {
+    font-size: 0.6em;
+    margin: 10px 0;
+}
+
+.characterPic {
+  width: 40%;
+  margin: auto;
 }
