@@ -28,6 +28,7 @@ function App() {
         {/* Add buttons for class selection */}
         <div>
           <button onClick={() => handleClassSelection('Bard')}>Bard</button>
+          <button onClick={() => handleClassSelection('Wizard')}>Barbarian</button>
           <button onClick={() => handleClassSelection('Sorcerer')}>Sorcerer</button>
           <button onClick={() => handleClassSelection('Wizard')}>Wizard</button>
         </div>
